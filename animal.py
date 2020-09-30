@@ -21,5 +21,5 @@ class Animal:
         self.image = image.load(self.image_path)
         self.image = transform.scale(self.image, (gc.IMAGE_SIZE - 2*gc.MARGIN, gc.IMAGE_SIZE - 2*gc.MARGIN))
         self.box = self.image.copy()
-        self.box.fill((200, 200, 200))
+        self.box.fill((200, 200, 200)
         self.skip = False
